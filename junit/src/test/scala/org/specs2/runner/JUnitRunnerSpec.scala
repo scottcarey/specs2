@@ -51,6 +51,8 @@ class MainJUnitSpecification extends Specification { def is = s2"""
 """
 }
 
+object MainJUnitSpecification 
+
 @RunWith(classOf[JUnitRunner])
 object LinkedJUnitSpec extends mutable.Specification {
 
